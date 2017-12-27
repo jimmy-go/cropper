@@ -1,0 +1,2 @@
+# cropper
+Image resizer utility.
