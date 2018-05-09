@@ -1,13 +1,23 @@
 hash: 9d1ac03c9e0170a1d361aa206aeeafa7c1de3f76794e7f701101e1a50e0a610a
-updated: 2018-02-18T12:23:32.744576-06:00
-imports: []
+updated: 2018-05-08T19:40:42.395933-05:00
+imports:
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: ded0c29b24f96f46cf349e6701b099db601cf8ec
+- name: github.com/gorilla/pat
+  version: 199c85a7f6d1ed2ecd6f071892d312c00d43b031
+- name: github.com/gorilla/schema
+  version: d0e4c24cff97ae983e9847e0ed5a02dc10013d41
+- name: github.com/jimmy-go/srest
+  version: ccedd159addc7078be885a7355b143750fc71915
 testImports:
 - name: github.com/davecgh/go-spew
-  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
   subpackages:
   - spew
 - name: github.com/pmezard/go-difflib
-  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
   subpackages:
   - difflib
 - name: github.com/stretchr/testify
