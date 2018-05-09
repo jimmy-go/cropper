@@ -1,4 +1,4 @@
-## Image resizer utility.
+## Server for web preview using Headless Chrome written in Go.
 
 [![License MIT](https://img.shields.io/npm/l/express.svg)](http://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/jimmy-go/cropper.svg?branch=master)](https://travis-ci.org/jimmy-go/cropper)
@@ -8,7 +8,7 @@
 
 ### Install:
 ```
-go get gopkg.in/jimmy-go/cropper.v0
+go get github.com/jimmy-go/cropper
 ```
 
 ### Usage:
