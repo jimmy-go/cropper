@@ -4,5 +4,6 @@ set -o errexit
 set -o nounset
 
 rm -rf vendor
-touch coverage.out && rm coverage.out
-touch coverage.html && rm coverage.html
+rm -rf tmp
+rm -f coverage.out
+rm -f coverage.html
