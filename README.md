@@ -14,8 +14,12 @@ go get github.com/jimmy-go/cropper
 ### Usage:
 
 ```
-// TODO;
+$ make run
 ```
+
+* Exposed endpoint in http://localhost:9900/v1/preview?url=string&width=int&height=int
+
+See `scripts/run.sh` for customization.
 
 ### License:
 
