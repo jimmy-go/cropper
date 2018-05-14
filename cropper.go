@@ -101,6 +101,7 @@ func screenshotArgs(exec, uri string, width, height int) ([]string, error) {
 		return nil, errors.New("height must be greater than zero")
 	}
 	wh := fmt.Sprintf("--window-size=%d,%d", width, height)
-	args := []string{exec, "--headless", "--disable-gpu", "--hide-scrollbars", "--screenshot", wh, uri}
+	args := []string{exec, "--headless", "--disable-gpu", "--hide-scrollbars", "--screenshot",
+		wh, "--default-background-color=00000000", uri}
 	return args, nil
 }

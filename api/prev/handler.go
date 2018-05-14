@@ -14,9 +14,21 @@ func Handler(c *cropper.Cropper) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		ctx := r.Context()
 
+		// TODO; better payload validation.
 		v := r.URL.Query()
-		width, _ := strconv.Atoi(v.Get("width"))
-		height, _ := strconv.Atoi(v.Get("height"))
+		ws := v.Get("width")
+		wf, err := strconv.ParseFloat(ws, 64)
+		if err != nil {
+			log.Printf("parse float : %s [%v]", err, ws)
+		}
+		hs := v.Get("height")
+		hf, err := strconv.ParseFloat(hs, 64)
+		if err != nil {
+			log.Printf("parse float : %s [%v]", err, hs)
+		}
+		width := int(wf)
+		height := int(hf)
+
 		uri := v.Get("url")
 
 		// Validate exists.

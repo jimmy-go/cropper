@@ -17,7 +17,7 @@ func TestArgs(t *testing.T) {
 		Err           error
 	}{
 		{"1.OK", "https://some.com", 500, 700,
-			`[chrome --headless --disable-gpu --hide-scrollbars --screenshot --window-size=500,700 https://some.com]`,
+			`[chrome --headless --disable-gpu --hide-scrollbars --screenshot --window-size=500,700 --default-background-color=00000000 https://some.com]`,
 			nil,
 		},
 		{"2.Fail: zero width", "https://some.com", 0, 700,

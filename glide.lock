@@ -1,12 +1,12 @@
 hash: 9d1ac03c9e0170a1d361aa206aeeafa7c1de3f76794e7f701101e1a50e0a610a
-updated: 2018-05-08T19:40:42.395933-05:00
+updated: 2018-05-12T16:02:56.120851-05:00
 imports:
 - name: github.com/gorilla/context
   version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
-  version: ded0c29b24f96f46cf349e6701b099db601cf8ec
+  version: 5e55a4adb89fb64e8b13bbd302eeedac7a4ba5d8
 - name: github.com/gorilla/pat
-  version: 199c85a7f6d1ed2ecd6f071892d312c00d43b031
+  version: 71e7b868be7be92ceedfa2836fb96701b5b4b123
 - name: github.com/gorilla/schema
   version: d0e4c24cff97ae983e9847e0ed5a02dc10013d41
 - name: github.com/jimmy-go/srest
